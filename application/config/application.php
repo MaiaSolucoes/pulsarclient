@@ -217,4 +217,4 @@ return array(
 		'Typeahead'      => 'Bootstrapper\\Typeahead',
 		'Typography'     => 'Bootstrapper\\Typography',			
 	),
-
+);
