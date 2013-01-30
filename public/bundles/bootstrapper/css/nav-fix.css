@@ -1,3 +1,45 @@
 body {
     padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
 }
+
+#page {margin:0 auto;width:960px}
+
+#footer{
+    border-top:1px solid #d3e5f0;
+    height:80px;
+    padding-top:15px;
+    overflow:hidden;
+    width:100%;
+    background-repeat: no-repeat;
+}
+/* Copyright */
+/*#copyright {
+
+    color:#8ba5b4;
+    font:.75em HelveticaNeue, Helvetica, Arial, Sans-Serif;
+    float:left;
+    padding:20px 10px 0;
+    text-shadow:none;
+    margin-left: 230px;
+}
+#terms {
+    color:#8ba5b4;
+    font:.75em HelveticaNeue, Helvetica, Arial, Sans-Serif;
+    float:right;
+    padding:20px 20px 0;
+    text-shadow:none;
+}
+#contactfooter {
+    color:#8ba5b4;
+    font:.75em HelveticaNeue, Helvetica, Arial, Sans-Serif;
+    float:right;
+    padding:20px 20px 0;
+    text-shadow:none;
+}
+#social {
+    color:#8ba5b4;
+    font:.75em HelveticaNeue, Helvetica, Arial, Sans-Serif;
+    float:left;
+    padding:0px 20px 0;
+    text-shadow:none;
+} */
