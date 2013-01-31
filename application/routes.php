@@ -31,11 +31,15 @@
 |		});
 |
 */
+Route::get('/', function(){
 
-Route::get('/', function()
-{
-	return View::make('home.index');
+	View::make('maiasolucoes.contato');
+
 });
+
+Route::controller(Controller::detect());
+
+
 
 /*
 |--------------------------------------------------------------------------

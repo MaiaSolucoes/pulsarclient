@@ -215,6 +215,7 @@ return array(
 		'Table'          => 'Bootstrapper\\Table',
 		'Thumbnail'      => 'Bootstrapper\\Thumbnail',
 		'Typeahead'      => 'Bootstrapper\\Typeahead',
-		'Typography'     => 'Bootstrapper\\Typography',			
+		'Typography'     => 'Bootstrapper\\Typography',
 	),
+
 );
