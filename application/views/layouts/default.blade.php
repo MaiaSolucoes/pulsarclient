@@ -32,7 +32,7 @@
     {{ Asset::container('bootstrapper')->styles(); }}
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>?????????</title>
+    <title>Pagina Inicial</title>
 
 
     <meta http-equiv="imagetoolbar" content="no">
@@ -79,39 +79,8 @@
             <br>
         </div>
         @include('layouts/rodape')
-<!--    <div id="footer">
-        <p id="social">
-           Mantenha contato<br>
-            <a href=""><img src="img/icone_facebook.png" width="36" height="36"></a>
-            <a href=""><img src="img/icone_twitter.png" width="36" heigth="36"></a>
-            <a href=""><img src="img/icone-rss.png" width="36" heigth="36"></a>
-        </p>
-        <p id="copyright">
-            Todos os direitos reservados © 2013
-        </p>
-        <p id="terms">
-            <a href="">Termos de serviços</a>
-        </p>
-    </div> -->
 </div> <!--id = page-->
-
-<!-- Le javascript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="../assets/js/jquery.js"></script>
-<script src="../assets/js/bootstrap-transition.js"></script>
-<script src="../assets/js/bootstrap-alert.js"></script>
-<script src="../assets/js/bootstrap-modal.js"></script>
-<script src="../assets/js/bootstrap-dropdown.js"></script>
-<script src="../assets/js/bootstrap-scrollspy.js"></script>
-<script src="../assets/js/bootstrap-tab.js"></script>
-<script src="../assets/js/bootstrap-tooltip.js"></script>
-<script src="../assets/js/bootstrap-popover.js"></script>
-<script src="../assets/js/bootstrap-button.js"></script>
-<script src="../assets/js/bootstrap-collapse.js"></script>
-<script src="../assets/js/bootstrap-carousel.js"></script>
-<script src="../assets/js/bootstrap-typeahead.js"></script>
-
 {{ Asset::container('bootstrapper')->scripts(); }}
 
-</body></html>
+</body>
+</html>
