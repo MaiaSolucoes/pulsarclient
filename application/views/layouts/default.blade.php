@@ -23,9 +23,9 @@
 @include('layouts/cabecalho')
 <div id='conteudo' style="margin: 150px 150px 150px 150px ;">
 conteúdo
+</div>
 <hr>
 @include('layouts/rodape')
 {{ Asset::container('bootstrapper')->scripts(); }}
-
 </body>
 </html>
