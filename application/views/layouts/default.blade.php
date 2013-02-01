@@ -29,18 +29,8 @@
 <body>
 @include('layouts/cabecalho')
 <div id='conteudo' style="margin: 150px 150px 150px 150px ;">
-<pre>
-Body - Matheus
-.
-.
-.
-Conteúdo - Maia
-.
-.
-.
-Body - Matheus
-</pre>
-    <br>
+conteúdo
+<hr>
 @include('layouts/rodape')
 {{ Asset::container('bootstrapper')->scripts(); }}
 
