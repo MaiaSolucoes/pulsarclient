@@ -4,7 +4,6 @@
             <div class="row-fluid">
 
                 <div class="span4">
-
                     <!--Mantenha contato
                     <div class="row-fluid">
                         <div class="span2">
@@ -14,7 +13,6 @@
                             <a href=""><img src="img/icone_twitter.png" width="36" heigth="36"></a>
                         </div>
                     </div> -->
-                    
                 </div>
 
                 <div class="span4">
