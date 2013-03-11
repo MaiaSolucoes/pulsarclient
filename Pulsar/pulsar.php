@@ -12,19 +12,19 @@
             switch($status){
                 case "200":
                     $content = file_get_contents($url);
-                    $data = json_decode($content);
+                    $token = json_decode($content);
                     break;
                 case "404":
-                    $data = "Not found";
+                    $token = "Not found";
                     break;
                 default:
-                    $data = "Error";
+                    $token = "Error";
             }
-            return $data;
+            return $token;
         }
 
-        public static function who($id){
-            $url = "http://pul.cicero.maiasolucoes.com.br/user/user?id=$id";
+        public static function who($token){
+            $url = "http://pul.cicero.maiasolucoes.com.br/user/user?token=$token";
             $content = file_get_contents($url);
             $data = json_decode($content);
             return $data;

@@ -1,6 +1,5 @@
 <?php
 require_once 'Pulsar/pulsar.php';
-
-$args = array('username' => 'raphael@maiasolucoes.com.br', 'password' => 'rap3hael');
+$args = array('username' => 'raphael@maiasolucoes.com.br', 'password' => 'raphael');
 $token = Pulsar::login($args);
-print $token->id;
+print Pulsar::who($token);
