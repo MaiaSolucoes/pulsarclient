@@ -1,13 +1,6 @@
 <?php
 require_once 'Pulsar/pulsar.php';
 
-$args = array('username' => 'raphael@maiasolucoes.com.br', 'password' => 'raphael');
+$args = array('username' => 'raphael@maiasolucoes.com.br', 'password' => 'rap3hael');
 $token = Pulsar::login($args);
-print $token;
-
-
-/*if ($_SESSION["token"]){
-    print "VOCE SE AUTENTICO";
-} else {
-    print "VOCE EH BURRO";
-}*/
+print $token->id;
